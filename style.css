@@ -1,0 +1,13 @@
+.country{
+    border: 1px solid grey;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#countri{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
